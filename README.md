@@ -34,4 +34,5 @@ Exported decrypted passwords to decrypted_passwords.csv
 1. Windows
 
 ## Details
-This project is a standalone version that takes the files as arguments and a fork of [this](https://github.com/ohyicong/decrypt-chrome-passwords) project
+My edits were just to make the args not required, and will attempt to go for the default paths (not 'Profile' folders). Also added an Edge flag to attempt Edge's default paths.
+This project is a modified version, and a fork of [this](https://github.com/Bruckyy/chrome-password-decrypter) which is a fork of the [original project here](https://github.com/ohyicong/decrypt-chrome-passwords)
