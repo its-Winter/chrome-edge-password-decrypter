@@ -4,8 +4,8 @@ Decrypt chrome password from a given "Login Data" chrome database and the "Local
 
 ## Installation
 ```
-git clone https://github.com/Bruckyy/chrome-password-decrypter.git
-cd chrome-password-decrypter
+git clone https://github.com/its-Winter/chrome-edge-password-decrypter.git
+cd chrome-edge-password-decrypter
 pip install -r requirements.txt
 ```
 
