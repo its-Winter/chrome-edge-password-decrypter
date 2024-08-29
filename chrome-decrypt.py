@@ -12,7 +12,7 @@ from Cryptodome.Cipher import AES
 parser = argparse.ArgumentParser()
 parser.add_argument("-k", "--key", help="Local State file containing the key")
 parser.add_argument("-d", "--db", help="Login data file containing the sqlite chrome database")
-parser.add_argument("-e", "--edge", help="If attacking Edge, only needed if not specifying files", type=bool, default=False)
+parser.add_argument("-e", "--edge", help="If attacking Edge, only needed if not specifying files", action="store_true")
 parser.add_argument("-o", "--output", help="Output file to export results")
 
 args = parser.parse_args()
